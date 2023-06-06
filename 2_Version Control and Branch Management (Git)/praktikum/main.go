@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	name := 34
+	name := 356
+	
 	fmt.Printf("Hello Go! %v", name)
 }
