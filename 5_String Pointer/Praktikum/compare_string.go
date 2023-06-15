@@ -9,6 +9,7 @@ func Compare(a, b string) string {
 	arrA := strings.Split(a, "")
 	arrB := strings.Split(b, "")
 	arrResult := []string{}
+	
 	for i := range arrA {
 		for j := range arrB {
 			if arrA[i] == arrB[j] {
